@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: black;
+}
+ul li{
+color: white;
+list-style: none;
+display: inline-block;
+font-size: 160px;
+transition-property: all;
+transition-duration: 1s;
+text-shadow: 1px 2px 4px yellow;
+transition-timing-function: linear;
+-webkit-box-reflect: below 3px linear-gradient(transparent,rgba(0, 0, 0, 0.3));
+}
+ul:hover li{
+transform: translateY(-150px) rotate(25deg);
+filter: blur(25px);
+opacity:0;
+}
+ul li:nth-child(1){
+transition-delay: 0s;
+}
+ul li:nth-child(2){
+transition-delay: 0.4s;
+}
+ul li:nth-child(3){
+transition-delay: 0.8s;
+}
+ul li:nth-child(4){
+transition-delay: 1.2s;
+}
+ul li:nth-child(5){
+transition-delay: 1.6s;
+}
+ul li:nth-child(6){
+transition-delay: 1.8s;
+}
